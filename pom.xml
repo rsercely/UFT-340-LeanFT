@@ -1,5 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+    <properties>
+        <test.src.dir>src/main/java</test.src.dir>
+        <leanft.version>14.50.0</leanft.version>
+    </properties>
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>g1</groupId>
     <artifactId>a1</artifactId>
@@ -17,25 +22,25 @@
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>sdk</artifactId>
-            <version>14.51.0</version>
+            <version>${leanft.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>report</artifactId>
-            <version>14.51.0</version>
+            <version>${leanft.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>unittesting</artifactId>
-            <version>14.51.0</version>
+            <version>${leanft.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>verifications</artifactId>
-            <version>14.51.0</version>
+            <version>${leanft.version}</version>
         </dependency>
     </dependencies>
 
@@ -47,20 +52,15 @@
         </repository>-->
     </repositories>
 
-    <properties>
-        <test.src.dir>src/test/java</test.src.dir>
-    </properties>
-
     <build>
         <testSourceDirectory>${test.src.dir}</testSourceDirectory>
-		
         <plugins>
 			<!--Uncomment this section if you want to use the application model generator plugin-->
             <!--For details, see https://admhelp.microfocus.com/leanft/en/latest/HelpCenter/Content/HowTo/update-appModel.htm#hp-minitoc-item-3-->
             <!--<plugin>-->
                 <!--<groupId>com.hpe.lft</groupId>-->
                 <!--<artifactId>appmodel-generator-mojo</artifactId>-->
-                <!--<version>14.51.0</version>-->
+                <!--<version>${leanft.version}</version>-->
                 <!--<executions>-->
                     <!--<execution>-->
                         <!--<phase>validate</phase>-->

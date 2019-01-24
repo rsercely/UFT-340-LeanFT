@@ -78,12 +78,19 @@ public class LeanFtTest extends UnitTestClassBase {
                 .innerText("")
                 .tagName("DIV")
                 .index(0).build());
-        webElement.click();
+ //       webElement.click();
 
         Link hOMELink = browser.describe(Link.class, new LinkDescription.Builder()
                 .innerText("HOME")
                 .tagName("A").build());
-        hOMELink.click();
+ //       hOMELink.click();
+
+        AOS_AM appModel = new AOS_AM(browser);
+        appModel.aCheckOutBtnButton().click();
+        appModel.aUsernameInOrderPaymentEditField().setValue("BillyBob");
+        appModel.aPasswordInOrderPaymentEditField().setSecure("5c4a40ac437beef4e44f5ff04c5c6084df6dd51fb7f8519503a0e31b36ed459b");
+
+//        browser.close();
 
     }
 
