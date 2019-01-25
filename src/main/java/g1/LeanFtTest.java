@@ -39,9 +39,10 @@ public class LeanFtTest extends UnitTestClassBase {
     @Test
     public void test() throws GeneralLeanFtException {
         Browser browser = BrowserFactory.launch(BrowserType.CHROME);
+//        Browser browser = BrowserFactory.launch(BrowserType.INTERNET_EXPLORER);
 
-        browser.navigate("http://advantageonlineshopping.com/");
-
+//        browser.navigate("http://advantageonlineshopping.com/");
+        browser.navigate("http://nimbusserver:8000/#/");
         Link tABLETSLink = browser.describe(Link.class, new LinkDescription.Builder()
                 .innerText("TABLETS")
                 .tagName("SPAN").build());
@@ -70,7 +71,10 @@ public class LeanFtTest extends UnitTestClassBase {
                 .role("link")
                 .tagName("A")
                 .index(1).build());
-        link.click();
+ //       link.click();
+        AOS_AM appModel = new AOS_AM(browser);
+        appModel.aMenuCartWebElement().click(); // this is more reliable than link above - because of the
+                                                //.innerText("2 ") above - numberof items currently in cart
 
         WebElement webElement = browser.describe(WebElement.class, new WebElementDescription.Builder()
                 .accessibilityName("")
@@ -85,11 +89,12 @@ public class LeanFtTest extends UnitTestClassBase {
                 .tagName("A").build());
  //       hOMELink.click();
 
-        AOS_AM appModel = new AOS_AM(browser);
         appModel.aCheckOutBtnButton().click();
         appModel.aUsernameInOrderPaymentEditField().setValue("BillyBob");
         appModel.aPasswordInOrderPaymentEditField().setSecure("5c4a40ac437beef4e44f5ff04c5c6084df6dd51fb7f8519503a0e31b36ed459b");
-
+        appModel.aSHOPPINGCARTLink().click();
+        appModel.aREMOVEWebElement().click();
+        hOMELink.click();
 //        browser.close();
 
     }
