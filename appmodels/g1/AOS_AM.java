@@ -56,7 +56,7 @@ public class AOS_AM extends AppModelBase {		private aCheckOutBtnButton aCheckOut
 		protected com.hp.lft.sdk.web.ButtonDescription createDescription() throws GeneralLeanFtException{
 			com.hp.lft.sdk.web.ButtonDescription description = null; 
 			try{
-				description = new com.hp.lft.sdk.web.ButtonDescription.Builder().buttonType("submit").name("CHECKOUT ($2,558.00)").tagName("BUTTON").build();
+				description = new com.hp.lft.sdk.web.ButtonDescription.Builder().buttonType("submit").name(new RegExpProperty("CHECKOUT \\(\\$.*")).tagName("BUTTON").build();
 			}catch(Exception e){
 				throw new GeneralLeanFtException(e.getMessage(), e);
 			}

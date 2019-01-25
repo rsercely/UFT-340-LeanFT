@@ -37,11 +37,21 @@ public class LeanFtTest extends UnitTestClassBase {
     }
 
     @Test
-    public void test() throws GeneralLeanFtException {
-        Browser browser = BrowserFactory.launch(BrowserType.CHROME);
+    public void test() throws GeneralLeanFtException, InterruptedException {
+// native code        Browser browser = BrowserFactory.launch(BrowserType.CHROME);
 
+        BrowserDescription bd = new BrowserDescription();
+
+        bd.setType(BrowserType.INTERNET_EXPLORER); //or: bd.set("type", BrowserType.INTERNET_EXPLORER) or: bd.set("type", "INTERNET_EXPLORER")
+        bd.set("version", "11");
+        bd.set("osType", "Windows");
+        bd.set("osVersion", "10");
+        bd.set("testName", "My LeanFT web test");
+
+        Browser browser = SrfLab.launchBrowser(bd);
+//        Browser browser = SrfLab.launchBrowser(BrowserType.CHROME);
         browser.navigate("http://advantageonlineshopping.com/");
-
+        Thread.sleep(60*1000);
         Link tABLETSLink = browser.describe(Link.class, new LinkDescription.Builder()
                 .innerText("TABLETS")
                 .tagName("SPAN").build());
@@ -66,11 +76,15 @@ public class LeanFtTest extends UnitTestClassBase {
 
         Link link = browser.describe(Link.class, new LinkDescription.Builder()
                 .accessibilityName("")
-                .innerText("2 ")
+                .innerText("2")
                 .role("link")
                 .tagName("A")
                 .index(1).build());
-        link.click();
+        //link.click();
+
+        AOS_AM appModel = new AOS_AM(browser);
+        appModel.aMenuCartWebElement().click(); // am using this as it is more reliable than the originally recorded
+        // which has hard coded innerTest of 2 - number of items in cartf
 
         WebElement webElement = browser.describe(WebElement.class, new WebElementDescription.Builder()
                 .accessibilityName("")
@@ -85,11 +99,13 @@ public class LeanFtTest extends UnitTestClassBase {
                 .tagName("A").build());
  //       hOMELink.click();
 
-        AOS_AM appModel = new AOS_AM(browser);
         appModel.aCheckOutBtnButton().click();
         appModel.aUsernameInOrderPaymentEditField().setValue("BillyBob");
         appModel.aPasswordInOrderPaymentEditField().setSecure("5c4a40ac437beef4e44f5ff04c5c6084df6dd51fb7f8519503a0e31b36ed459b");
+        appModel.aMenuCartWebElement().click();
+        appModel.aREMOVEWebElement().click();
 
+        hOMELink.click();
 //        browser.close();
 
     }

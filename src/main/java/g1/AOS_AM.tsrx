@@ -10,7 +10,7 @@
             <identification>
                 <properties>
                     <property name="ButtonType" type="string" isRegExp="false">submit</property>
-                    <property name="Name" type="string" isRegExp="false">CHECKOUT ($2,558.00)</property>
+                    <property name="Name" type="string" isRegExp="true">CHECKOUT \(\$.*</property>
                     <property name="TagName" type="string" isRegExp="false">BUTTON</property>
                 </properties>
             </identification>

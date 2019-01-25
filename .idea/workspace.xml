@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57b42a4-817d-49b0-8c08-055bfd337ac0" name="Default Changelist" comment="Application Model created and some objects added">
-      <change beforePath="" afterPath="$PROJECT_DIR$/appmodels/g1/AOS_AM.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/g1/AOS_AM.tsrx" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hp_lft_report_14_51_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hp_lft_sdk_14_51_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hp_lft_unittesting_14_51_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hp_lft_verifications_14_51_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RunResults/Resources/Snapshots/19c860c2-a897-4843-bfff-2ffe17c96da6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RunResults/Resources/Snapshots/28beff1c-93f8-4277-82ae-082e87583260.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RunResults/Resources/Snapshots/2ab9045e-4c36-4bde-8271-b5e8ef36962c.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RunResults/Resources/Snapshots/6151de62-8779-4054-b3f6-7eb966937a33.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RunResults/Resources/Snapshots/a742db82-e581-4a03-baa2-74139788b912.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RunResults/Resources/Snapshots/c4fa3a13-0b73-48d8-bb60-407d8e32e2cd.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/RunResults/Resources/Snapshots/ee52ba62-5a9e-4c82-a0ea-f7e76d3d34ef.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RunResults/runresults.css" afterPath="$PROJECT_DIR$/RunResults/runresults.css" />
       <change beforePath="$PROJECT_DIR$/RunResults/runresults.html" afterPath="$PROJECT_DIR$/RunResults/runresults.html" />
       <change beforePath="$PROJECT_DIR$/RunResults/runresults.json" afterPath="$PROJECT_DIR$/RunResults/runresults.json" />
       <change beforePath="$PROJECT_DIR$/RunResults/runresults.xml" afterPath="$PROJECT_DIR$/RunResults/runresults.xml" />
-      <change beforePath="$PROJECT_DIR$/UFT-340-LeanFT.iml" afterPath="$PROJECT_DIR$/UFT-340-LeanFT.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/appmodels/g1/AOS_AM.java" afterPath="$PROJECT_DIR$/appmodels/g1/AOS_AM.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/g1/AOS_AM.tsrx" afterPath="$PROJECT_DIR$/src/main/java/g1/AOS_AM.tsrx" />
       <change beforePath="$PROJECT_DIR$/src/main/java/g1/LeanFtTest.java" afterPath="$PROJECT_DIR$/src/main/java/g1/LeanFtTest.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/g1/LeanFtTest.class" afterPath="$PROJECT_DIR$/target/classes/g1/LeanFtTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leanft.properties" afterPath="$PROJECT_DIR$/target/classes/leanft.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unittesting/UnitTestClassBase$1.class" afterPath="$PROJECT_DIR$/target/classes/unittesting/UnitTestClassBase$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/unittesting/UnitTestClassBase.class" afterPath="$PROJECT_DIR$/target/classes/unittesting/UnitTestClassBase.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +26,21 @@
       <file leaf-file-name="LeanFtTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/g1/LeanFtTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="90" column="127" lean-forward="false" selection-start-line="90" selection-start-column="127" selection-end-line="90" selection-end-column="127" />
+            <state relative-caret-position="166">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AOS_AM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appmodels/g1/AOS_AM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,7 +93,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ApplicationModelWorking" />
       </map>
     </option>
   </component>
@@ -126,9 +120,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="667" />
-    <option name="y" value="21" />
-    <option name="width" value="1320" />
+    <option name="x" value="409" />
+    <option name="width" value="1137" />
     <option name="height" value="904" />
   </component>
   <component name="ProjectView">
@@ -261,47 +254,67 @@
       <option name="presentableId" value="Default" />
       <updated>1548365274338</updated>
     </task>
+    <task id="LOCAL-00001" summary="Application Model created and some objects added">
+      <created>1548370356797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548370356797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeanFtTest_test - 2019.01.24 at 15h 30m 49s.xml">
+    <history-entry file="LeanFtTest_test - 2019.01.24 at 17h 06m 58s.xml">
       <configuration name="LeanFtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeanFtTest_test - 2019.01.24 at 15h 49m 25s.xml">
+    <history-entry file="LeanFtTest_test - 2019.01.24 at 17h 08m 20s.xml">
       <configuration name="LeanFtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeanFtTest_test - 2019.01.24 at 15h 51m 07s.xml">
+    <history-entry file="LeanFtTest_test - 2019.01.25 at 11h 25m 02s.xml">
       <configuration name="LeanFtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeanFtTest_test - 2019.01.24 at 15h 52m 03s.xml">
+    <history-entry file="LeanFtTest_test - 2019.01.25 at 11h 27m 46s.xml">
       <configuration name="LeanFtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeanFtTest_test - 2019.01.24 at 16h 35m 25s.xml">
+    <history-entry file="LeanFtTest_test - 2019.01.25 at 11h 31m 43s.xml">
       <configuration name="LeanFtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeanFtTest_test - 2019.01.24 at 16h 36m 25s.xml">
+    <history-entry file="LeanFtTest_test - 2019.01.25 at 11h 33m 31s.xml">
+      <configuration name="LeanFtTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeanFtTest_test - 2019.01.25 at 11h 36m 59s.xml">
+      <configuration name="LeanFtTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeanFtTest_test - 2019.01.25 at 11h 40m 03s.xml">
+      <configuration name="LeanFtTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeanFtTest_test - 2019.01.25 at 11h 45m 09s.xml">
+      <configuration name="LeanFtTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeanFtTest_test - 2019.01.25 at 11h 47m 37s.xml">
       <configuration name="LeanFtTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="667" y="21" width="1320" height="904" extended-state="0" />
+    <frame x="409" y="0" width="1137" height="904" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26683939" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26683939" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="ALM Octane" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31865284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6295337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16746032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2915506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -333,15 +346,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26766595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26683939" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26445395" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26231262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16746032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -393,6 +406,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appmodels/g1/AOS_AM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/g1/AOS_AM.tsrx">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -406,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/g1/LeanFtTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="90" column="127" lean-forward="false" selection-start-line="90" selection-start-column="127" selection-end-line="90" selection-end-column="127" />
+        <state relative-caret-position="166">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
