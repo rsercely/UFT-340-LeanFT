@@ -41,8 +41,8 @@ public class LeanFtTest extends UnitTestClassBase {
         Browser browser = BrowserFactory.launch(BrowserType.CHROME);
 //        Browser browser = BrowserFactory.launch(BrowserType.INTERNET_EXPLORER);
 
-//        browser.navigate("http://advantageonlineshopping.com/");
-        browser.navigate("http://nimbusserver:8000/#/");
+        browser.navigate("http://advantageonlineshopping.com/");
+//        browser.navigate("http://nimbusserver:8000/#/");
         Link tABLETSLink = browser.describe(Link.class, new LinkDescription.Builder()
                 .innerText("TABLETS")
                 .tagName("SPAN").build());
