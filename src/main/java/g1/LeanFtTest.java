@@ -42,8 +42,8 @@ public class LeanFtTest extends UnitTestClassBase {
 
         BrowserDescription bd = new BrowserDescription();
 
-        bd.setType(BrowserType.INTERNET_EXPLORER); //or: bd.set("type", BrowserType.INTERNET_EXPLORER) or: bd.set("type", "INTERNET_EXPLORER")
-        bd.set("version", "11");
+        bd.setType(BrowserType.CHROME); //or: bd.set("type", BrowserType.INTERNET_EXPLORER) or: bd.set("type", "INTERNET_EXPLORER")
+        bd.set("version", "latest");
         bd.set("osType", "Windows");
         bd.set("osVersion", "10");
         bd.set("testName", "My LeanFT web test");
@@ -51,7 +51,7 @@ public class LeanFtTest extends UnitTestClassBase {
         Browser browser = SrfLab.launchBrowser(bd);
 //        Browser browser = SrfLab.launchBrowser(BrowserType.CHROME);
         browser.navigate("http://advantageonlineshopping.com/");
-        Thread.sleep(60*1000);
+        Thread.sleep(10*1000);
         Link tABLETSLink = browser.describe(Link.class, new LinkDescription.Builder()
                 .innerText("TABLETS")
                 .tagName("SPAN").build());

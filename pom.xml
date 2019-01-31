@@ -2,7 +2,7 @@
 
     <properties>
         <test.src.dir>src/main/java</test.src.dir>
-        <leanft.version>14.50.0</leanft.version>
+        <leanft.version>14.51.0</leanft.version>
     </properties>
 
     <modelVersion>4.0.0</modelVersion>
